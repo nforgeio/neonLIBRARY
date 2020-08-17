@@ -1,2 +1,2 @@
 # neonLIBRARY
-Future home of the Public .NET libraries
+Future home of the public neonFORGE .NET libraries
