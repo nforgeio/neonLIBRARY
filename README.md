@@ -1,2 +1,2 @@
 # neonLIBRARY
-Future hom of the Public .NET libraries
+Future home of the Public .NET libraries
