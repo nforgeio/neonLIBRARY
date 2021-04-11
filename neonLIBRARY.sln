@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{94F9C93E-5095-4EF1-AEA2-D36AF5210627}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\DEVELOPER.md = Doc\DEVELOPER.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{F060F1C4-B988-40B0-A401-C9B4697531CB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		buildenv.cmd = buildenv.cmd
+		buildenv.ps1 = buildenv.ps1
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{77647F34-5DC9-4805-9939-D1BFC1A32CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Developer", "Developer", "{5BCEF89A-8C87-4701-AA1D-45F9AFF96B98}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\Images\Developer\DockerLogo.png = Doc\Images\Developer\DockerLogo.png
+		Doc\Images\Developer\DockerNetwork.png = Doc\Images\Developer\DockerNetwork.png
+		Doc\Images\Developer\DockerSysTray.png = Doc\Images\Developer\DockerSysTray.png
+		Doc\Images\Developer\hyper-v.png = Doc\Images\Developer\hyper-v.png
+		Doc\Images\Developer\PythonImports.png = Doc\Images\Developer\PythonImports.png
+		Doc\Images\Developer\SkypeConnections.png = Doc\Images\Developer\SkypeConnections.png
+		Doc\Images\Developer\virtualization.png = Doc\Images\Developer\virtualization.png
+		Doc\Images\Developer\VisualStudioClone.png = Doc\Images\Developer\VisualStudioClone.png
+		Doc\Images\Developer\WinSCPHiddenFiles.png = Doc\Images\Developer\WinSCPHiddenFiles.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToolBin", "ToolBin", "{C4D79B3A-4D1E-41E1-8E5C-0DCEB31B93DA}"
+	ProjectSection(SolutionItems) = preProject
+		ToolBin\DELETE-ME.md = ToolBin\DELETE-ME.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5F64ECF2-3415-42AE-BA35-DE5A24976F70}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\DELETE-ME.md = Tools\DELETE-ME.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4CFF3DAB-275A-4D1F-9014-B437563E4DBE}"
+	ProjectSection(SolutionItems) = preProject
+		Test\DELETE-ME.md = Test\DELETE-ME.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{4B4C63F8-979A-44B6-B6D7-34A23EC7AFD9}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\DELETE-ME.md = Lib\DELETE-ME.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77647F34-5DC9-4805-9939-D1BFC1A32CC0} = {94F9C93E-5095-4EF1-AEA2-D36AF5210627}
+		{5BCEF89A-8C87-4701-AA1D-45F9AFF96B98} = {77647F34-5DC9-4805-9939-D1BFC1A32CC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7626E604-43EC-4BAA-BD52-C191CA9723D5}
+	EndGlobalSection
+EndGlobal
