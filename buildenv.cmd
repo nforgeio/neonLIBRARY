@@ -20,8 +20,8 @@ set NL_ROOT=%NL_ROOT:~0,-2%
 
 if not [%1]==[] set NL_ROOT=%1
 
-if exist %NL_ROOT%\neonCLOUD.sln goto goodPath
-echo The [%NL_ROOT%\neonCLOUD.sln] file does not exist.  Please pass the path
+if exist %NL_ROOT%\neonLIBRARY.sln goto goodPath
+echo The [%NL_ROOT%\neonLIBRARY.sln] file does not exist.  Please pass the path
 echo to the Neon solution folder.
 goto done
 
@@ -40,7 +40,6 @@ set NL_BUILD=%NL_ROOT%\Build
 set NL_CACHE=%NL_ROOT%\Build-cache
 set NL_TEST=%NL_ROOT%\Test
 set NL_TEMP=C:\Temp
-set NL_ACTIONS_ROOT=%NC_REPOS%\neonCLOUD\Automation\actions
 
 echo.
 echo Persisting state...
@@ -74,8 +73,8 @@ REM Perform remaining initialization in Powershell.
 
 pwsh -File "%NL_ROOT%"\buildenv.ps1
 
+:done
 echo ============================================================================================
 echo * Be sure to close and reopen Visual Studio and any command windows to pick up the changes *
 echo ============================================================================================
 pause
-:done
